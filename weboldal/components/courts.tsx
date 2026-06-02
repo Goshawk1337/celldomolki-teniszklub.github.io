@@ -47,8 +47,8 @@ export default function Courts() {
                 </div>
                 <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {courts.map((court) => (
-                        <div className="flex flex-col gap-4 bg-background px-2 py-2 rounded-lg ">
-                            <img src="https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=800&q=80" alt="" className="rounded-lg h-80 object-cover" />
+                        <div className="flex flex-col gap-4 bg-background px-2 py-2 rounded-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
+                            <img src={court.image} alt="" className="rounded-lg h-80 object-cover" />
                             <div>
                                 <div className="flex justify-between items-center mb-3">
                                     <h2 className="text-2xl  text-foreground  leading-tight tracking-tighter">{court.name}</h2>
