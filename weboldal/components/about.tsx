@@ -1,5 +1,5 @@
 import { Plus } from "lucide-react";
-import { Button } from "./button";
+import { Button } from "./ui/button";
 const features = [
     {
         title: "Személyre szabott edzés",
